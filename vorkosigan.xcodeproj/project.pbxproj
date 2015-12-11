@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65A2E6741C1B5E1F00E5A518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */; };
+		65A2E6761C1B5E1F00E5A518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6751C1B5E1F00E5A518 /* ViewController.swift */; };
+		65A2E6791C1B5E1F00E5A518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6771C1B5E1F00E5A518 /* Main.storyboard */; };
+		65A2E67B1C1B5E1F00E5A518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */; };
+		65A2E67E1C1B5E1F00E5A518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E67C1C1B5E1F00E5A518 /* LaunchScreen.xib */; };
+		65A2E68A1C1B5E1F00E5A518 /* vorkosiganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6891C1B5E1F00E5A518 /* vorkosiganTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A2E6841C1B5E1F00E5A518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A2E6661C1B5E1F00E5A518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A2E66D1C1B5E1F00E5A518;
+			remoteInfo = vorkosigan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65A2E66E1C1B5E1F00E5A518 /* vorkosigan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vorkosigan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A2E6721C1B5E1F00E5A518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A2E6751C1B5E1F00E5A518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65A2E6781C1B5E1F00E5A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65A2E67D1C1B5E1F00E5A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65A2E6831C1B5E1F00E5A518 /* vorkosiganTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vorkosiganTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A2E6881C1B5E1F00E5A518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A2E6891C1B5E1F00E5A518 /* vorkosiganTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vorkosiganTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A2E66B1C1B5E1F00E5A518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A2E6801C1B5E1F00E5A518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A2E6651C1B5E1F00E5A518 = {
+			isa = PBXGroup;
+			children = (
+				65A2E6701C1B5E1F00E5A518 /* vorkosigan */,
+				65A2E6861C1B5E1F00E5A518 /* vorkosiganTests */,
+				65A2E66F1C1B5E1F00E5A518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A2E66F1C1B5E1F00E5A518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E66E1C1B5E1F00E5A518 /* vorkosigan.app */,
+				65A2E6831C1B5E1F00E5A518 /* vorkosiganTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A2E6701C1B5E1F00E5A518 /* vorkosigan */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */,
+				65A2E6751C1B5E1F00E5A518 /* ViewController.swift */,
+				65A2E6771C1B5E1F00E5A518 /* Main.storyboard */,
+				65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */,
+				65A2E67C1C1B5E1F00E5A518 /* LaunchScreen.xib */,
+				65A2E6711C1B5E1F00E5A518 /* Supporting Files */,
+			);
+			path = vorkosigan;
+			sourceTree = "<group>";
+		};
+		65A2E6711C1B5E1F00E5A518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E6721C1B5E1F00E5A518 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A2E6861C1B5E1F00E5A518 /* vorkosiganTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E6891C1B5E1F00E5A518 /* vorkosiganTests.swift */,
+				65A2E6871C1B5E1F00E5A518 /* Supporting Files */,
+			);
+			path = vorkosiganTests;
+			sourceTree = "<group>";
+		};
+		65A2E6871C1B5E1F00E5A518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E6881C1B5E1F00E5A518 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A2E66D1C1B5E1F00E5A518 /* vorkosigan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A2E68D1C1B5E1F00E5A518 /* Build configuration list for PBXNativeTarget "vorkosigan" */;
+			buildPhases = (
+				65A2E66A1C1B5E1F00E5A518 /* Sources */,
+				65A2E66B1C1B5E1F00E5A518 /* Frameworks */,
+				65A2E66C1C1B5E1F00E5A518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vorkosigan;
+			productName = vorkosigan;
+			productReference = 65A2E66E1C1B5E1F00E5A518 /* vorkosigan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A2E6821C1B5E1F00E5A518 /* vorkosiganTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A2E6901C1B5E1F00E5A518 /* Build configuration list for PBXNativeTarget "vorkosiganTests" */;
+			buildPhases = (
+				65A2E67F1C1B5E1F00E5A518 /* Sources */,
+				65A2E6801C1B5E1F00E5A518 /* Frameworks */,
+				65A2E6811C1B5E1F00E5A518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A2E6851C1B5E1F00E5A518 /* PBXTargetDependency */,
+			);
+			name = vorkosiganTests;
+			productName = vorkosiganTests;
+			productReference = 65A2E6831C1B5E1F00E5A518 /* vorkosiganTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A2E6661C1B5E1F00E5A518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Grace O'Hair-Sherman";
+				TargetAttributes = {
+					65A2E66D1C1B5E1F00E5A518 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					65A2E6821C1B5E1F00E5A518 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 65A2E66D1C1B5E1F00E5A518;
+					};
+				};
+			};
+			buildConfigurationList = 65A2E6691C1B5E1F00E5A518 /* Build configuration list for PBXProject "vorkosigan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A2E6651C1B5E1F00E5A518;
+			productRefGroup = 65A2E66F1C1B5E1F00E5A518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A2E66D1C1B5E1F00E5A518 /* vorkosigan */,
+				65A2E6821C1B5E1F00E5A518 /* vorkosiganTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A2E66C1C1B5E1F00E5A518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A2E6791C1B5E1F00E5A518 /* Main.storyboard in Resources */,
+				65A2E67E1C1B5E1F00E5A518 /* LaunchScreen.xib in Resources */,
+				65A2E67B1C1B5E1F00E5A518 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A2E6811C1B5E1F00E5A518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A2E66A1C1B5E1F00E5A518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A2E6761C1B5E1F00E5A518 /* ViewController.swift in Sources */,
+				65A2E6741C1B5E1F00E5A518 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A2E67F1C1B5E1F00E5A518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A2E68A1C1B5E1F00E5A518 /* vorkosiganTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A2E6851C1B5E1F00E5A518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A2E66D1C1B5E1F00E5A518 /* vorkosigan */;
+			targetProxy = 65A2E6841C1B5E1F00E5A518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65A2E6771C1B5E1F00E5A518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A2E6781C1B5E1F00E5A518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A2E67C1C1B5E1F00E5A518 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A2E67D1C1B5E1F00E5A518 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A2E68B1C1B5E1F00E5A518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A2E68C1C1B5E1F00E5A518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A2E68E1C1B5E1F00E5A518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vorkosigan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65A2E68F1C1B5E1F00E5A518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vorkosigan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65A2E6911C1B5E1F00E5A518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vorkosiganTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vorkosigan.app/vorkosigan";
+			};
+			name = Debug;
+		};
+		65A2E6921C1B5E1F00E5A518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vorkosiganTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vorkosigan.app/vorkosigan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A2E6691C1B5E1F00E5A518 /* Build configuration list for PBXProject "vorkosigan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A2E68B1C1B5E1F00E5A518 /* Debug */,
+				65A2E68C1C1B5E1F00E5A518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A2E68D1C1B5E1F00E5A518 /* Build configuration list for PBXNativeTarget "vorkosigan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A2E68E1C1B5E1F00E5A518 /* Debug */,
+				65A2E68F1C1B5E1F00E5A518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65A2E6901C1B5E1F00E5A518 /* Build configuration list for PBXNativeTarget "vorkosiganTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A2E6911C1B5E1F00E5A518 /* Debug */,
+				65A2E6921C1B5E1F00E5A518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A2E6661C1B5E1F00E5A518 /* Project object */;
+}
