@@ -8,11 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		65A2E6741C1B5E1F00E5A518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */; };
-		65A2E6761C1B5E1F00E5A518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6751C1B5E1F00E5A518 /* ViewController.swift */; };
+		65A2E6761C1B5E1F00E5A518 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6751C1B5E1F00E5A518 /* BooksViewController.swift */; };
 		65A2E6791C1B5E1F00E5A518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6771C1B5E1F00E5A518 /* Main.storyboard */; };
 		65A2E67B1C1B5E1F00E5A518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */; };
 		65A2E67E1C1B5E1F00E5A518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E67C1C1B5E1F00E5A518 /* LaunchScreen.xib */; };
 		65A2E68A1C1B5E1F00E5A518 /* vorkosiganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6891C1B5E1F00E5A518 /* vorkosiganTests.swift */; };
+		65A2E6941C1B647600E5A518 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6931C1B647600E5A518 /* BookTableViewCell.swift */; };
+		65A2E6961C2242A300E5A518 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6951C2242A300E5A518 /* Book.swift */; };
+		65A2E6981C224D2900E5A518 /* Omnibus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2E6971C224D2900E5A518 /* Omnibus.swift */; };
+		65A2E6B31C22518400E5A518 /* A Civil Campaign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69A1C22518400E5A518 /* A Civil Campaign.jpg */; };
+		65A2E6B41C22518400E5A518 /* Barrayar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69B1C22518400E5A518 /* Barrayar.jpg */; };
+		65A2E6B51C22518400E5A518 /* Brothers in Arms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69C1C22518400E5A518 /* Brothers in Arms.jpg */; };
+		65A2E6B61C22518400E5A518 /* Captain Vorpatril's Alliance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69D1C22518400E5A518 /* Captain Vorpatril's Alliance.jpg */; };
+		65A2E6B71C22518400E5A518 /* Cetaganda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69E1C22518400E5A518 /* Cetaganda.jpg */; };
+		65A2E6B81C22518400E5A518 /* Cordelia's Honor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E69F1C22518400E5A518 /* Cordelia's Honor.jpg */; };
+		65A2E6B91C22518400E5A518 /* Cryoburn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A01C22518400E5A518 /* Cryoburn.jpg */; };
+		65A2E6BA1C22518400E5A518 /* Diplomatic Immunity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A11C22518400E5A518 /* Diplomatic Immunity.jpg */; };
+		65A2E6BB1C22518400E5A518 /* "Dreamweavers Dilemma".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A21C22518400E5A518 /* "Dreamweavers Dilemma".jpg */; };
+		65A2E6BC1C22518400E5A518 /* Ethan of Athos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A31C22518400E5A518 /* Ethan of Athos.jpg */; };
+		65A2E6BD1C22518400E5A518 /* Falling Free.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A41C22518400E5A518 /* Falling Free.jpg */; };
+		65A2E6BE1C22518400E5A518 /* Gentleman Jole and the Red Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A51C22518400E5A518 /* Gentleman Jole and the Red Queen.jpg */; };
+		65A2E6BF1C22518400E5A518 /* Komarr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A61C22518400E5A518 /* Komarr.jpg */; };
+		65A2E6C01C22518400E5A518 /* "Labyrinth".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A71C22518400E5A518 /* "Labyrinth".jpg */; };
+		65A2E6C11C22518400E5A518 /* Memory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A81C22518400E5A518 /* Memory.jpg */; };
+		65A2E6C21C22518400E5A518 /* Miles Errant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6A91C22518400E5A518 /* Miles Errant.jpg */; };
+		65A2E6C31C22518400E5A518 /* Miles in Love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AA1C22518400E5A518 /* Miles in Love.jpg */; };
+		65A2E6C41C22518400E5A518 /* Miles, Mutants, and Microbes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AB1C22518400E5A518 /* Miles, Mutants, and Microbes.jpg */; };
+		65A2E6C51C22518400E5A518 /* Miles, Mystery, and Mayhem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AC1C22518400E5A518 /* Miles, Mystery, and Mayhem.jpg */; };
+		65A2E6C61C22518400E5A518 /* Shards of Honor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AD1C22518400E5A518 /* Shards of Honor.jpg */; };
+		65A2E6C71C22518400E5A518 /* "The Mountains of Mourning".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AE1C22518400E5A518 /* "The Mountains of Mourning".jpg */; };
+		65A2E6C81C22518400E5A518 /* The Vor Game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6AF1C22518400E5A518 /* The Vor Game.jpg */; };
+		65A2E6C91C22518400E5A518 /* The Warrior's Apprentice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6B01C22518400E5A518 /* The Warrior's Apprentice.jpg */; };
+		65A2E6CA1C22518400E5A518 /* "Winterfair Gifts".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6B11C22518400E5A518 /* "Winterfair Gifts".jpg */; };
+		65A2E6CB1C22518400E5A518 /* Young Miles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6B21C22518400E5A518 /* Young Miles.jpg */; };
+		65A2E6CD1C25E80300E5A518 /* "Aftermaths".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6CC1C25E80300E5A518 /* "Aftermaths".jpg */; };
+		65A2E6CF1C25E8B700E5A518 /* Borders of Infinity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6CE1C25E8B700E5A518 /* Borders of Infinity.jpg */; };
+		65A2E6D11C25E90100E5A518 /* "The Borders of Infinity".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6D01C25E90100E5A518 /* "The Borders of Infinity".jpg */; };
+		65A2E6D31C25E9DA00E5A518 /* Mirror Dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6D21C25E9DA00E5A518 /* Mirror Dance.jpg */; };
+		65A2E6D51C25EA6900E5A518 /* Test of Honor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A2E6D41C25EA6900E5A518 /* Test of Honor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +62,46 @@
 		65A2E66E1C1B5E1F00E5A518 /* vorkosigan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vorkosigan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A2E6721C1B5E1F00E5A518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65A2E6751C1B5E1F00E5A518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65A2E6751C1B5E1F00E5A518 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		65A2E6781C1B5E1F00E5A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65A2E67D1C1B5E1F00E5A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65A2E6831C1B5E1F00E5A518 /* vorkosiganTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vorkosiganTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A2E6881C1B5E1F00E5A518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A2E6891C1B5E1F00E5A518 /* vorkosiganTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vorkosiganTests.swift; sourceTree = "<group>"; };
+		65A2E6931C1B647600E5A518 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		65A2E6951C2242A300E5A518 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		65A2E6971C224D2900E5A518 /* Omnibus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Omnibus.swift; sourceTree = "<group>"; };
+		65A2E69A1C22518400E5A518 /* A Civil Campaign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A Civil Campaign.jpg"; sourceTree = "<group>"; };
+		65A2E69B1C22518400E5A518 /* Barrayar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barrayar.jpg; sourceTree = "<group>"; };
+		65A2E69C1C22518400E5A518 /* Brothers in Arms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brothers in Arms.jpg"; sourceTree = "<group>"; };
+		65A2E69D1C22518400E5A518 /* Captain Vorpatril's Alliance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Captain Vorpatril's Alliance.jpg"; sourceTree = "<group>"; };
+		65A2E69E1C22518400E5A518 /* Cetaganda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cetaganda.jpg; sourceTree = "<group>"; };
+		65A2E69F1C22518400E5A518 /* Cordelia's Honor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cordelia's Honor.jpg"; sourceTree = "<group>"; };
+		65A2E6A01C22518400E5A518 /* Cryoburn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cryoburn.jpg; sourceTree = "<group>"; };
+		65A2E6A11C22518400E5A518 /* Diplomatic Immunity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diplomatic Immunity.jpg"; sourceTree = "<group>"; };
+		65A2E6A21C22518400E5A518 /* "Dreamweavers Dilemma".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"Dreamweavers Dilemma\".jpg"; sourceTree = "<group>"; };
+		65A2E6A31C22518400E5A518 /* Ethan of Athos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ethan of Athos.jpg"; sourceTree = "<group>"; };
+		65A2E6A41C22518400E5A518 /* Falling Free.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falling Free.jpg"; sourceTree = "<group>"; };
+		65A2E6A51C22518400E5A518 /* Gentleman Jole and the Red Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gentleman Jole and the Red Queen.jpg"; sourceTree = "<group>"; };
+		65A2E6A61C22518400E5A518 /* Komarr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Komarr.jpg; sourceTree = "<group>"; };
+		65A2E6A71C22518400E5A518 /* "Labyrinth".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"Labyrinth\".jpg"; sourceTree = "<group>"; };
+		65A2E6A81C22518400E5A518 /* Memory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Memory.jpg; sourceTree = "<group>"; };
+		65A2E6A91C22518400E5A518 /* Miles Errant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miles Errant.jpg"; sourceTree = "<group>"; };
+		65A2E6AA1C22518400E5A518 /* Miles in Love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miles in Love.jpg"; sourceTree = "<group>"; };
+		65A2E6AB1C22518400E5A518 /* Miles, Mutants, and Microbes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miles, Mutants, and Microbes.jpg"; sourceTree = "<group>"; };
+		65A2E6AC1C22518400E5A518 /* Miles, Mystery, and Mayhem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miles, Mystery, and Mayhem.jpg"; sourceTree = "<group>"; };
+		65A2E6AD1C22518400E5A518 /* Shards of Honor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shards of Honor.jpg"; sourceTree = "<group>"; };
+		65A2E6AE1C22518400E5A518 /* "The Mountains of Mourning".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"The Mountains of Mourning\".jpg"; sourceTree = "<group>"; };
+		65A2E6AF1C22518400E5A518 /* The Vor Game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Vor Game.jpg"; sourceTree = "<group>"; };
+		65A2E6B01C22518400E5A518 /* The Warrior's Apprentice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Warrior's Apprentice.jpg"; sourceTree = "<group>"; };
+		65A2E6B11C22518400E5A518 /* "Winterfair Gifts".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"Winterfair Gifts\".jpg"; sourceTree = "<group>"; };
+		65A2E6B21C22518400E5A518 /* Young Miles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Young Miles.jpg"; sourceTree = "<group>"; };
+		65A2E6CC1C25E80300E5A518 /* "Aftermaths".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"Aftermaths\".jpg"; sourceTree = "<group>"; };
+		65A2E6CE1C25E8B700E5A518 /* Borders of Infinity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Borders of Infinity.jpg"; sourceTree = "<group>"; };
+		65A2E6D01C25E90100E5A518 /* "The Borders of Infinity".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "\"The Borders of Infinity\".jpg"; sourceTree = "<group>"; };
+		65A2E6D21C25E9DA00E5A518 /* Mirror Dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mirror Dance.jpg"; sourceTree = "<group>"; };
+		65A2E6D41C25EA6900E5A518 /* Test of Honor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Test of Honor.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +143,12 @@
 		65A2E6701C1B5E1F00E5A518 /* vorkosigan */ = {
 			isa = PBXGroup;
 			children = (
+				65A2E6991C22514B00E5A518 /* Images */,
 				65A2E6731C1B5E1F00E5A518 /* AppDelegate.swift */,
-				65A2E6751C1B5E1F00E5A518 /* ViewController.swift */,
+				65A2E6931C1B647600E5A518 /* BookTableViewCell.swift */,
+				65A2E6751C1B5E1F00E5A518 /* BooksViewController.swift */,
+				65A2E6951C2242A300E5A518 /* Book.swift */,
+				65A2E6971C224D2900E5A518 /* Omnibus.swift */,
 				65A2E6771C1B5E1F00E5A518 /* Main.storyboard */,
 				65A2E67A1C1B5E1F00E5A518 /* Images.xcassets */,
 				65A2E67C1C1B5E1F00E5A518 /* LaunchScreen.xib */,
@@ -110,6 +180,43 @@
 				65A2E6881C1B5E1F00E5A518 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A2E6991C22514B00E5A518 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65A2E6D41C25EA6900E5A518 /* Test of Honor.jpg */,
+				65A2E6D21C25E9DA00E5A518 /* Mirror Dance.jpg */,
+				65A2E6D01C25E90100E5A518 /* "The Borders of Infinity".jpg */,
+				65A2E6CE1C25E8B700E5A518 /* Borders of Infinity.jpg */,
+				65A2E6CC1C25E80300E5A518 /* "Aftermaths".jpg */,
+				65A2E69A1C22518400E5A518 /* A Civil Campaign.jpg */,
+				65A2E69B1C22518400E5A518 /* Barrayar.jpg */,
+				65A2E69C1C22518400E5A518 /* Brothers in Arms.jpg */,
+				65A2E69D1C22518400E5A518 /* Captain Vorpatril's Alliance.jpg */,
+				65A2E69E1C22518400E5A518 /* Cetaganda.jpg */,
+				65A2E69F1C22518400E5A518 /* Cordelia's Honor.jpg */,
+				65A2E6A01C22518400E5A518 /* Cryoburn.jpg */,
+				65A2E6A11C22518400E5A518 /* Diplomatic Immunity.jpg */,
+				65A2E6A21C22518400E5A518 /* "Dreamweavers Dilemma".jpg */,
+				65A2E6A31C22518400E5A518 /* Ethan of Athos.jpg */,
+				65A2E6A41C22518400E5A518 /* Falling Free.jpg */,
+				65A2E6A51C22518400E5A518 /* Gentleman Jole and the Red Queen.jpg */,
+				65A2E6A61C22518400E5A518 /* Komarr.jpg */,
+				65A2E6A71C22518400E5A518 /* "Labyrinth".jpg */,
+				65A2E6A81C22518400E5A518 /* Memory.jpg */,
+				65A2E6A91C22518400E5A518 /* Miles Errant.jpg */,
+				65A2E6AA1C22518400E5A518 /* Miles in Love.jpg */,
+				65A2E6AB1C22518400E5A518 /* Miles, Mutants, and Microbes.jpg */,
+				65A2E6AC1C22518400E5A518 /* Miles, Mystery, and Mayhem.jpg */,
+				65A2E6AD1C22518400E5A518 /* Shards of Honor.jpg */,
+				65A2E6AE1C22518400E5A518 /* "The Mountains of Mourning".jpg */,
+				65A2E6AF1C22518400E5A518 /* The Vor Game.jpg */,
+				65A2E6B01C22518400E5A518 /* The Warrior's Apprentice.jpg */,
+				65A2E6B11C22518400E5A518 /* "Winterfair Gifts".jpg */,
+				65A2E6B21C22518400E5A518 /* Young Miles.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +299,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A2E6CF1C25E8B700E5A518 /* Borders of Infinity.jpg in Resources */,
+				65A2E6B61C22518400E5A518 /* Captain Vorpatril's Alliance.jpg in Resources */,
+				65A2E6C31C22518400E5A518 /* Miles in Love.jpg in Resources */,
+				65A2E6B51C22518400E5A518 /* Brothers in Arms.jpg in Resources */,
+				65A2E6D11C25E90100E5A518 /* "The Borders of Infinity".jpg in Resources */,
 				65A2E6791C1B5E1F00E5A518 /* Main.storyboard in Resources */,
 				65A2E67E1C1B5E1F00E5A518 /* LaunchScreen.xib in Resources */,
+				65A2E6BB1C22518400E5A518 /* "Dreamweavers Dilemma".jpg in Resources */,
+				65A2E6BF1C22518400E5A518 /* Komarr.jpg in Resources */,
+				65A2E6C91C22518400E5A518 /* The Warrior's Apprentice.jpg in Resources */,
+				65A2E6C71C22518400E5A518 /* "The Mountains of Mourning".jpg in Resources */,
+				65A2E6B71C22518400E5A518 /* Cetaganda.jpg in Resources */,
+				65A2E6BC1C22518400E5A518 /* Ethan of Athos.jpg in Resources */,
+				65A2E6C11C22518400E5A518 /* Memory.jpg in Resources */,
+				65A2E6CA1C22518400E5A518 /* "Winterfair Gifts".jpg in Resources */,
+				65A2E6BA1C22518400E5A518 /* Diplomatic Immunity.jpg in Resources */,
+				65A2E6C61C22518400E5A518 /* Shards of Honor.jpg in Resources */,
+				65A2E6B81C22518400E5A518 /* Cordelia's Honor.jpg in Resources */,
+				65A2E6C81C22518400E5A518 /* The Vor Game.jpg in Resources */,
+				65A2E6C21C22518400E5A518 /* Miles Errant.jpg in Resources */,
+				65A2E6CB1C22518400E5A518 /* Young Miles.jpg in Resources */,
+				65A2E6CD1C25E80300E5A518 /* "Aftermaths".jpg in Resources */,
+				65A2E6B41C22518400E5A518 /* Barrayar.jpg in Resources */,
+				65A2E6B91C22518400E5A518 /* Cryoburn.jpg in Resources */,
+				65A2E6BE1C22518400E5A518 /* Gentleman Jole and the Red Queen.jpg in Resources */,
+				65A2E6C41C22518400E5A518 /* Miles, Mutants, and Microbes.jpg in Resources */,
 				65A2E67B1C1B5E1F00E5A518 /* Images.xcassets in Resources */,
+				65A2E6D31C25E9DA00E5A518 /* Mirror Dance.jpg in Resources */,
+				65A2E6C01C22518400E5A518 /* "Labyrinth".jpg in Resources */,
+				65A2E6D51C25EA6900E5A518 /* Test of Honor.jpg in Resources */,
+				65A2E6BD1C22518400E5A518 /* Falling Free.jpg in Resources */,
+				65A2E6C51C22518400E5A518 /* Miles, Mystery, and Mayhem.jpg in Resources */,
+				65A2E6B31C22518400E5A518 /* A Civil Campaign.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A2E6761C1B5E1F00E5A518 /* ViewController.swift in Sources */,
+				65A2E6981C224D2900E5A518 /* Omnibus.swift in Sources */,
+				65A2E6961C2242A300E5A518 /* Book.swift in Sources */,
+				65A2E6761C1B5E1F00E5A518 /* BooksViewController.swift in Sources */,
+				65A2E6941C1B647600E5A518 /* BookTableViewCell.swift in Sources */,
 				65A2E6741C1B5E1F00E5A518 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
