@@ -10,7 +10,7 @@ import UIKit
 
 class Omnibus: NSObject {
     var title: String = ""
-    var works = [Book]()
+    var works = [String]()
     var omnibus: Omnibus! {
         didSet {
             var imgName: String = "\(self.title)"
@@ -18,4 +18,12 @@ class Omnibus: NSObject {
         }
     }
     var isRead: Bool!
+    var internalChronNum : Int
+    var imgName : String
+    internal required init(title: String, num: Int){
+        self.title = title
+        self.internalChronNum = num
+        imgName = "\(self.title).jpg"
+        //var coverPic = UIImage(named: imgName)
+    }
 }

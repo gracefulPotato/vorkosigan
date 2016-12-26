@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8757A6EA-D119-44C8-8C5F-8D94E0768756</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC3BD4C45FE97D07CF581C9F0E0F317FFBB80904</key>
+		<string>https://github.com/gracefulPotato/vorkosigan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>vorkosigan.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC3BD4C45FE97D07CF581C9F0E0F317FFBB80904</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gracefulPotato/vorkosigan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC3BD4C45FE97D07CF581C9F0E0F317FFBB80904</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC3BD4C45FE97D07CF581C9F0E0F317FFBB80904</string>
+			<key>IDESourceControlWCCName</key>
+			<string>vorkosigan</string>
+		</dict>
+	</array>
+</dict>
+</plist>
